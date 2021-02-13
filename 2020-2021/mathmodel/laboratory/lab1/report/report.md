@@ -26,7 +26,7 @@ romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
 monofontoptions: Scale=MatchLowercase
 indent: true
-pdf-engine: luatex
+pdf-engine: lualatex
 header-includes:
   - \linepenalty=10 # the penalty added to the badness of each line within a paragraph (no associated penalty node) Increasing the value makes tex try to have fewer lines in the paragraph.
   - \interlinepenalty=0 # value of the penalty (node) added after each line of a paragraph.
@@ -169,7 +169,7 @@ header-includes:
 
 4. проверка текущего состояния репозитория ('git status');
 
-5. "привязка" репозитория на GitHub к текущему репозиторию ('git remote add origin git@github.com:RoDar203/work.git');
+5. "привязка" репозитория на GitHub к текущему репозиторию;
 
 6. отправка изменений ветки "master" ('git push -u origin master').
 
@@ -187,7 +187,7 @@ header-includes:
 
 Можно увидеть, что в репозитории на GitHub появились данные, которые были добавлены при помощи git (рис. -@fig:010): 
 
-![Инициализация и привязка репозитория](image/10.png){ #fig:010 width=70% }
+![Репозиторий на GitHub](image/10.png){ #fig:010 width=70% }
 
 ## Работа с git-flow
 
@@ -210,6 +210,7 @@ header-includes:
 ```sh
       git flow feature start MYFEATURE
 ```
+
 При необходимости можно сохранять и публиковатть промежуточные версии при помощи команд: 
 
 ```sh
@@ -222,12 +223,32 @@ header-includes:
       git flow feature finish MYFEATURE
 ```
 
+После окончания работы над фичами необходимо сделать релиз работы. Для этого необходимо создать ветку релиза, ответляя от ветки develop:
+
+```sh
+      git flow release start RELEASE
+```
+
+Публикация релиза выполняется с помощью команды: 
+
+```sh
+      git flow release publish RELEASE
+```
+
+Завершить релиз (ветка релиз сливается с веткой master и в ветку develop и удаляется)можно с помощью команды
+
+```sh
+      git flow release finish RELEASE
+```
+
 # Выводы
 
 В ходе выполнения лабораторной работы были изучены основные особенности системы контроля версий git, а также специфика выполнения и оформления лабораторных работ для данной дисциплины. 
 
-## ССылки на ресурсы
+## Ссылки на ресурсы
 
 Видео с выполнением работы: [https://youtu.be/8sznIfBZaMA](https://youtu.be/8sznIfBZaMA)
+
+Видео с скринкастом презентации: [https://youtu.be/Kuqcd2KLSfc](https://youtu.be/Kuqcd2KLSfc)
 
 Ссылка на репозиторий с файлами работы: [https://github.com/RoDar203/work](https://github.com/RoDar203/work)
