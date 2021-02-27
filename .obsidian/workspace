@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "6b9fea16033ef3c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb33aaf6f690ec05",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2020-2021/mathmodel/grproject/step1/report/model_dendrity.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "829a9fee1e2e3a8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fef515f4280574b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2634945e7838ead5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "44844a4385e3d066",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0f4f719ed705f04e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ef663f966ae1435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3aad46df5d74b6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2020-2021/mathmodel/grproject/step1/report/model_dendrity.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "2020-2021/mathmodel/grproject/step1/report/model_dendrity.md",
+    "2020-2021/mathmodel/grproject/step1/report/report_dend.md",
+    "2020-2021/mathmodel/grproject/step1/report/Дендритный рост.gif",
+    "2020-2021/mathmodel/laboratory/lab2/presentation/presentation2.md",
+    "2020-2021/mathmodel/grproject/step1/presentation/presentation2.md",
+    "2020-2021/mathmodel/grproject/step1/presentation/image/23.png",
+    "2020-2021/mathmodel/grproject/step1/presentation/image/25.png",
+    "2020-2021/mathmodel/grproject/step1/presentation/image/22.png",
+    "2020-2021/mathmodel/essay/presentation/presentation1.md",
+    "2020-2021/mathmodel/grproject/step1/report/report2.md"
+  ]
+}
